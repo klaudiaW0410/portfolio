@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
+    --first-color: #cee6fd;
+    --secondary-color: #F8F9FA;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -54,9 +54,13 @@ p {
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    background: var(--primary-color);
+    background: var(--first-color);
     box-shadow: var(--box-shadow);
-    color: white;
+    color: rgb(81, 81, 81);
+}
+
+.contact-link:hover{
+    color: rgb(81, 81, 81);
 }
 
 .about-link {
@@ -64,12 +68,16 @@ p {
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    color: rgb(81, 81, 81);
+    background: var(--first-color);
+    box-shadow: var(--box-shadow);
+}
+.about-link:hover{
+    color: rgb(81, 81, 81);
 }
 
 .homepage-link {
-    color: var(--primary-color);
+    color: var(--first-color);
     text-align: center;
     display: block;
 }
@@ -87,7 +95,7 @@ p {
 .email-link {
     display: flex;
     justify-content: center;
-    color: var(--primary-color);
+    color: var(--first-color);
     font-size: 28px;
     text-decoration: none;
 }
